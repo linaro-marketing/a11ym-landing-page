@@ -1,146 +1,118 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="robots" content="noindex">
-
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="robots" content="noindex" />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
     <title>Linaro a11y Dashboard</title>
-</head>
-
-<body>
-    <div class="container">
-        <div class="row justify-content-sm-center">
-            <div class="col-12 col-sm-8">
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <h1>The a11y Dashboard</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="row">
-                    <div class="col-12 col-sm-4 my-3 justify-content-center">
-                        <div class="card mx-auto" style="width: 18rem;">
-                            <img class="card-img-top" src="https://www.linaro.org/assets/images/social-media-image.png" alt="Card image cap">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Linaro.org</h5>
-                                <a href="reports/staging-linaro-org/index.html" class="btn btn-secondary">Staging</a>
-                                <a href="reports/production-linaro-org/index.html" class="btn btn-primary">Production</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 my-3 justify-content-center">
-                        <div class="card mx-auto" style="width: 18rem;">
-                            <img class="card-img-top" src="https://www.96boards.org/assets/images/social-media-image.png" alt="Card image cap">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">96Boards.org</h5>
-                                <a href="reports/staging-96boards-org/index.html" class="btn btn-secondary">Staging</a>
-                                <a href="reports/production-96boards-org/index.html" class="btn btn-primary">Production</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 my-3 justify-content-center">
-                        <div class="card mx-auto" style="width: 18rem;">
-                            <img class="card-img-top" src="https://www.96boards.ai/assets/images/social-media-image.png" alt="Card image cap">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">96Boards.ai</h5>
-                                <a href="reports/staging-96boards-ai/index.html" class="btn btn-secondary">Staging</a>
-                                <a href="reports/production-96boards-ai/index.html" class="btn btn-primary">Production</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 my-3 justify-content-center">
-                        <div class="card mx-auto" style="width: 18rem;">
-                            <img class="card-img-top" src="https://connect.linaro.org/assets/images/social-media-image.png" alt="Card image cap">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Connect.linaro.org</h5>
-                                <a href="reports/staging-connect-linaro-org/index.html" class="btn btn-secondary">Staging</a>
-                                <a href="reports/production-connect-linaro-org/index.html" class="btn btn-primary">Production</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 my-3 justify-content-center">
-                        <div class="card mx-auto" style="width: 18rem;">
-                            <img class="card-img-top" src="https://www.op-tee.org/assets/images/social-media-image.png" alt="Card image cap">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">OP-TEE.org</h5>
-                                <a href="reports/staging-op-tee-org/index.html" class="btn btn-secondary">Staging</a>
-                                <a href="reports/production-op-tee-org/index.html" class="btn btn-primary">Production</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 my-3 justify-content-center">
-                        <div class="card mx-auto" style="width: 18rem;">
-                            <img class="card-img-top" src="https://www.devicetree.org/assets/images/social-media-image.png" alt="Card image cap">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">DeviceTree.org</h5>
-                                <a href="reports/staging-devicetree-org/index.html" class="btn btn-secondary">Staging</a>
-                                <a href="reports/production-devicetree-org/index.html" class="btn btn-primary">Production</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 my-3 justify-content-center">
-                        <div class="card mx-auto" style="width: 18rem;">
-                            <img class="card-img-top" src="https://lkft.linaro.org/assets/images/social-media-image.png" alt="Card image cap">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">lkft.linaro.org</h5>
-                                <a href="reports/staging-lkft-linaro-org/index.html" class="btn btn-secondary">Staging</a>
-                                <a href="reports/production-lkft-linaro-org/index.html" class="btn btn-primary">Production</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 my-3 justify-content-center">
-                        <div class="card mx-auto" style="width: 18rem;">
-                            <img class="card-img-top" src="https://www.trustedfirmware.org/assets/images/social-media-image.png" alt="Card image cap">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">TrustedFirmware.org</h5>
-                                <a href="reports/staging-trustedfirmware-org/index.html" class="btn btn-secondary">Staging</a>
-                                <a href="reports/production-trustedfirmware-org/index.html" class="btn btn-primary">Production</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 my-3 justify-content-center">
-                        <div class="card mx-auto" style="width: 18rem;">
-                            <img class="card-img-top" src="https://www.mlplatform.org/assets/images/social-media-image.png" alt="Card image cap">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">MLPlatform.org</h5>
-                                <a href="reports/staging-mlplatform-org/index.html" class="btn btn-secondary">Staging</a>
-                                <a href="reports/production-mlplatform-org/index.html" class="btn btn-primary">Production</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 my-3 justify-content-center">
-                        <div class="card mx-auto" style="width: 18rem;">
-                            <img class="card-img-top" src="https://www.openampproject.org/assets/images/social-media-image.png" alt="Card image cap">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">OpenAmpProject.org</h5>
-                                <a href="reports/staging-openampproject-org/index.html" class="btn btn-secondary">Staging</a>
-                                <a href="reports/production-openampproject-org/index.html" class="btn btn-primary">Production</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <style>
+      .card-img-top {
+        height: 250px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">The a11y dashboard</h1>
+        <p class="lead">
+          We run a11y tests to ensure our sites accessible to all users.
+        </p>
+      </div>
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-</body>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row justify-content-sm-center">
+          <div class="col-12">
+            <div class="row" id="a11y_cards"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
 
+    <script type="text/javascript">
+      $(document).ready(function () {
+        function loadJSON(callback) {
+          var xobj = new XMLHttpRequest();
+          xobj.overrideMimeType("application/json");
+          xobj.open("GET", "site-config.json", true);
+          // Replace 'my_data' with the path to your file
+          xobj.onreadystatechange = function () {
+            if (xobj.readyState === 4 && xobj.status === 200) {
+              // Required use of an anonymous callback
+              // as .open() will NOT return a value but simply returns undefined in asynchronous mode
+              callback(xobj.responseText);
+            }
+          };
+          xobj.send(null);
+        }
+        function init() {
+          loadJSON(function (response) {
+            // Parse JSON string into object
+            var actual_JSON = JSON.parse(response);
+            console.log(actual_JSON);
+            var a11y_card_items = [];
+            $.each(actual_JSON, function (key, val) {
+              var new_item = '<div class="col-12 col-md-6 col-xl-4 my-3 ">';
+              new_item += '<div class="card mx-auto">';
+              new_item +=
+                '<img class="card-img-top" src="' +
+                val.site_image +
+                '" alt = "Card image cap" >';
+              new_item += '<div class="card-body text-center">';
+              new_item += '<h5 class="card-title">' + val.site_id + "</h5>";
+              new_item += '<ul class="list-group">';
+              for (var i = 0; i < val.environments.length; i++) {
+                new_item +=
+                  '<li class="list-group-item"><div class="wrapper d-flex align-items-center"><div class="float-sm-left">';
+                new_item +=
+                  val.environments[i].button +
+                  '<span class="badge badge-danger ml-2">';
+                new_item +=
+                  val.environments[i].error_count.toString() + "</span>";
+                new_item +=
+                  '<span class="text-muted d-block">' +
+                  val.environments[i].scan_date +
+                  "</span></div>";
+                new_item +=
+                  '<a href="' +
+                  val.environments[i].directory +
+                  '" class="btn btn-primary btn-sm ml-sm-auto">View Report</a></div></li>';
+              }
+              new_item += "</ul></div></div></div >";
+              a11y_card_items.push(new_item);
+            });
+            $("#a11y_cards").html(a11y_card_items.join(""));
+          });
+        }
+        init();
+      });
+    </script>
+  </body>
 </html>
